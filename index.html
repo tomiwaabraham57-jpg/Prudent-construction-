@@ -1,3 +1,1677 @@
-https://github.com/tomiwaabraham57-jpg/Prudent-construction-.git
-https://github.com/tomiwaabraham57-jpg/Prudent-construction-.git
-https://github.com/tomiwaabraham57-jpg/Prudent-construction-.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PRUDENT Construction | Building Foundations, Engineering Trust</title>
+
+  <meta
+    name="description"
+    content="PRUDENT Construction provides professional residential, commercial and civil construction services in Ado-Ekiti, Nigeria."
+  >
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #172033;
+      background: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    :root {
+      --blue: #073b8c;
+      --dark-blue: #031f4f;
+      --light-blue: #eaf2ff;
+      --white: #ffffff;
+      --gray: #667085;
+      --light: #f7f9fc;
+      --gold: #f4b400;
+    }
+
+    /* NAVIGATION */
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.97);
+      box-shadow: 0 2px 15px rgba(0,0,0,.08);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: auto;
+      height: 78px;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--dark-blue);
+    }
+
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background: var(--blue);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      list-style: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      color: var(--blue);
+    }
+
+    .quote-btn {
+      background: var(--blue);
+      color: white !important;
+      padding: 12px 20px;
+      border-radius: 6px;
+    }
+
+    .quote-btn:hover {
+      background: var(--dark-blue);
+    }
+
+    .menu-btn {
+      display: none;
+      border: 0;
+      background: none;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 100vh;
+      padding-top: 78px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background:
+        linear-gradient(90deg, rgba(2,24,58,.94), rgba(3,44,94,.65)),
+        url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=85")
+        center/cover;
+    }
+
+    .hero-content {
+      max-width: 1200px;
+      width: 100%;
+      margin: auto;
+      padding: 80px 25px;
+      color: white;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--gold);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      max-width: 800px;
+      font-size: clamp(44px, 7vw, 78px);
+      line-height: 1.05;
+      margin-bottom: 25px;
+    }
+
+    .hero h1 span {
+      color: var(--gold);
+    }
+
+    .hero p {
+      max-width: 680px;
+      font-size: 18px;
+      color: #e8eef8;
+      margin-bottom: 35px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 6px;
+      font-weight: 700;
+      border: 2px solid transparent;
+      transition: .25s;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #111;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      background: #ffc52e;
+    }
+
+    .btn-outline {
+      border-color: white;
+      color: white;
+    }
+
+    .btn-outline:hover {
+      background: white;
+      color: var(--dark-blue);
+    }
+
+    /* STATS */
+
+    .stats {
+      background: var(--blue);
+      color: white;
+    }
+
+    .stats-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 35px 25px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .stat h3 {
+      font-size: 32px;
+    }
+
+    .stat p {
+      opacity: .85;
+      font-size: 14px;
+    }
+
+    /* GENERAL */
+
+    section {
+      padding: 100px 25px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-heading {
+      max-width: 700px;
+      margin-bottom: 55px;
+    }
+
+    .section-heading.center {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .section-heading small {
+      color: var(--blue);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.1;
+      margin: 12px 0 18px;
+      color: var(--dark-blue);
+    }
+
+    .section-heading p {
+      color: var(--gray);
+      font-size: 17px;
+    }
+
+    /* ABOUT */
+
+    .about {
+      background: var(--light);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .about-image {
+      min-height: 500px;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .about-image img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-badge {
+      position: absolute;
+      bottom: 25px;
+      left: 25px;
+      background: white;
+      padding: 22px;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    }
+
+    .about-badge strong {
+      display: block;
+      color: var(--blue);
+      font-size: 28px;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin-top: 30px;
+    }
+
+    .feature-list li {
+      margin-bottom: 20px;
+      padding-left: 34px;
+      position: relative;
+    }
+
+    .feature-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 23px;
+      height: 23px;
+      display: grid;
+      place-items: center;
+      background: var(--blue);
+      color: white;
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .feature-list strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    /* SERVICES */
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+    }
+
+    .service-card {
+      padding: 32px 25px;
+      border: 1px solid #e3e8ef;
+      border-radius: 10px;
+      transition: .3s;
+      background: white;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(0,0,0,.09);
+      border-color: var(--blue);
+    }
+
+    .service-icon {
+      width: 55px;
+      height: 55px;
+      border-radius: 10px;
+      background: var(--light-blue);
+      color: var(--blue);
+      display: grid;
+      place-items: center;
+      font-size: 25px;
+      margin-bottom: 22px;
+    }
+
+    .service-card h3 {
+      color: var(--dark-blue);
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      color: var(--gray);
+      font-size: 14px;
+    }
+
+    /* PROJECTS */
+
+    .projects {
+      background: var(--light);
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,.06);
+    }
+
+    .project-image {
+      height: 260px;
+      overflow: hidden;
+    }
+
+    .project-image img {
+      height: 100%;
+      object-fit: cover;
+      transition: .5s;
+    }
+
+    .project-card:hover img {
+      transform: scale(1.06);
+    }
+
+    .project-info {
+      padding: 23px;
+    }
+
+    .project-tag {
+      color: var(--blue);
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .project-info h3 {
+      margin: 7px 0;
+      color: var(--dark-blue);
+    }
+
+    .project-info p {
+      color: var(--gray);
+      font-size: 14px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .testimonial {
+      padding: 30px;
+      background: var(--light);
+      border-radius: 10px;
+      border-left: 4px solid var(--gold);
+    }
+
+    .stars {
+      color: var(--gold);
+      margin-bottom: 15px;
+    }
+
+    .testimonial p {
+      color: #4c596d;
+      margin-bottom: 20px;
+    }
+
+    .testimonial strong {
+      color: var(--dark-blue);
+    }
+
+    /* CTA */
+
+    .cta {
+      background:
+        linear-gradient(90deg, rgba(2,24,58,.94), rgba(2,53,110,.8)),
+        url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1800&q=85")
+        center/cover;
+      color: white;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: clamp(35px, 5vw, 55px);
+      margin-bottom: 15px;
+    }
+
+    .cta p {
+      max-width: 650px;
+      margin: 0 auto 30px;
+      color: #dce7f5;
+    }
+
+    /* CONTACT */
+
+    .contact {
+      background: white;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 60px;
+    }
+
+    .contact-info h2 {
+      color: var(--dark-blue);
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info > p {
+      color: var(--gray);
+      margin-bottom: 35px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .contact-icon {
+      width: 45px;
+      height: 45px;
+      min-width: 45px;
+      border-radius: 7px;
+      background: var(--light-blue);
+      color: var(--blue);
+      display: grid;
+      place-items: center;
+      font-size: 19px;
+    }
+
+    .contact-item strong {
+      display: block;
+      color: var(--dark-blue);
+    }
+
+    .contact-item span {
+      color: var(--gray);
+      font-size: 14px;
+    }
+
+    .contact-form {
+      background: var(--light);
+      padding: 35px;
+      border-radius: 10px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .form-group {
+      margin-bottom: 17px;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid #d7dee8;
+      border-radius: 6px;
+      padding: 13px;
+      font: inherit;
+      background: white;
+      outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--blue);
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .submit-btn {
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: #021a3b;
+      color: white;
+      padding: 60px 25px 25px;
+    }
+
+    .footer-grid {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 50px;
+    }
+
+    .footer-logo {
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 15px;
+    }
+
+    footer p,
+    footer li {
+      color: #b7c5d8;
+      font-size: 14px;
+    }
+
+    footer h4 {
+      margin-bottom: 18px;
+    }
+
+    footer ul {
+      list-style: none;
+    }
+
+    footer li {
+      margin-bottom: 9px;
+    }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 45px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,.12);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: #9caec5;
+      font-size: 13px;
+    }
+
+    /* WHATSAPP */
+
+    .whatsapp {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25D366;
+      color: white;
+      display: grid;
+      place-items: center;
+      font-size: 28px;
+      z-index: 999;
+      box-shadow: 0 8px 25px rgba(0,0,0,.25);
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width: 1000px) {
+
+      .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .testimonial-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media(max-width: 800px) {
+
+      .menu-btn {
+        display: block;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 78px;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 20px 25px;
+        box-shadow: 0 10px 20px rgba(0,0,0,.08);
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .nav-links a {
+        display: block;
+        padding: 10px;
+      }
+
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-image {
+        min-height: 380px;
+      }
+
+      .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media(max-width: 550px) {
+
+      section {
+        padding: 70px 18px;
+      }
+
+      .hero-content {
+        padding: 60px 18px;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .stats-container {
+        grid-template-columns: 1fr 1fr;
+        padding: 25px 15px;
+      }
+
+      .stat h3 {
+        font-size: 25px;
+      }
+
+      .service-grid,
+      .project-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-form {
+        padding: 22px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <header class="navbar">
+    <div class="nav-container">
+
+      <a href="#home" class="logo">
+        <span class="logo-mark">P</span>
+        PRUDENT <span style="color:#073b8c;">Construction</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            class="quote-btn"
+            href="#contact"
+          >
+            Get a Quote
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+
+        <span class="eyebrow">
+          PRUDENT Construction
+        </span>
+
+        <h1>
+          Building Foundations,
+          <span>Engineering Trust.</span>
+        </h1>
+
+        <p>
+          Professional construction solutions for residential,
+          commercial and civil projects. We combine quality
+          workmanship, reliable project management and modern
+          construction practices.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore Our Projects
+          </a>
+
+          <a href="#contact" class="btn btn-outline">
+            Request a Consultation
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+      <div class="stats-container">
+
+        <div class="stat">
+          <h3>150+</h3>
+          <p>Projects Completed</p>
+        </div>
+
+        <div class="stat">
+          <h3>25+</h3>
+          <p>Years Experience</p>
+        </div>
+
+        <div class="stat">
+          <h3>100%</h3>
+          <p>Commitment to Safety</p>
+        </div>
+
+        <div class="stat">
+          <h3>50M+</h3>
+          <p>Sq. Ft. Built</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+      <div class="container about-grid">
+
+        <div class="about-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1000&q=85"
+            alt="Construction site"
+            onerror="this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=85'"
+          >
+
+          <div class="about-badge">
+            <strong>25+</strong>
+            Years of Experience
+          </div>
+
+        </div>
+
+        <div>
+
+          <div class="section-heading">
+            <small>About Prudent Construction</small>
+
+            <h2>
+              Pioneering Excellence in Modern Construction
+            </h2>
+
+            <p>
+              PRUDENT Construction is committed to delivering
+              dependable construction services with quality,
+              professionalism and attention to detail.
+            </p>
+          </div>
+
+          <ul class="feature-list">
+
+            <li>
+              <strong>Quality Construction</strong>
+              <span>
+                We focus on durable materials, proper planning
+                and excellent workmanship.
+              </span>
+            </li>
+
+            <li>
+              <strong>Safety First</strong>
+              <span>
+                Safety remains an essential part of every
+                construction project we undertake.
+              </span>
+            </li>
+
+            <li>
+              <strong>Professional Project Management</strong>
+              <span>
+                From planning to completion, we coordinate
+                projects with efficiency and accountability.
+              </span>
+            </li>
+
+            <li>
+              <strong>Experienced Team</strong>
+              <span>
+                Our team brings practical construction knowledge
+                and a commitment to client satisfaction.
+              </span>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section id="services">
+
+      <div class="container">
+
+        <div class="section-heading center">
+          <small>Our Services</small>
+
+          <h2>
+            Comprehensive Construction Services
+          </h2>
+
+          <p>
+            Construction solutions designed around your project,
+            budget and requirements.
+          </p>
+        </div>
+
+
+        <div class="service-grid">
+
+          <article class="service-card">
+
+            <div class="service-icon">🏢</div>
+
+            <h3>Commercial Construction</h3>
+
+            <p>
+              Professional construction services for offices,
+              commercial buildings, shops and business facilities.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-icon">🏠</div>
+
+            <h3>Residential Development</h3>
+
+            <p>
+              Quality homes, estates and residential developments
+              designed for comfort, durability and modern living.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-icon">🏗️</div>
+
+            <h3>Civil & Infrastructure</h3>
+
+            <p>
+              Civil construction and infrastructure solutions
+              including foundations, drainage and structural works.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-icon">📋</div>
+
+            <h3>Project Management</h3>
+
+            <p>
+              Planning, coordination, cost management and
+              supervision throughout the construction lifecycle.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section class="projects" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading center">
+          <small>Our Portfolio</small>
+
+          <h2>
+            Featured Construction Projects
+          </h2>
+
+          <p>
+            A selection of construction work and project types
+            handled by our team.
+          </p>
+        </div>
+
+
+        <div class="project-grid">
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                alt="Commercial construction"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Commercial
+              </span>
+
+              <h3>Modern Commercial Building</h3>
+
+              <p>
+                Contemporary commercial construction designed
+                for functionality and long-term durability.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+                alt="Residential building"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Residential
+              </span>
+
+              <h3>Luxury Residential Development</h3>
+
+              <p>
+                Modern residential architecture combining
+                comfort, quality and practical design.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1541971875076-8f970d573be6?auto=format&fit=crop&w=900&q=85"
+                alt="Civil engineering project"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Civil & Infrastructure
+              </span>
+
+              <h3>Infrastructure Project</h3>
+
+              <p>
+                Civil engineering and infrastructure works
+                developed with structural reliability in mind.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=900&q=85"
+                alt="Office building"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Commercial
+              </span>
+
+              <h3>Business Centre</h3>
+
+              <p>
+                Efficient commercial spaces created with
+                modern building standards.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85"
+                alt="Modern home"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Residential
+              </span>
+
+              <h3>Contemporary Family Home</h3>
+
+              <p>
+                A modern residential concept focused on
+                functionality and quality finishes.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                alt="Construction infrastructure"
+              >
+
+            </div>
+
+            <div class="project-info">
+
+              <span class="project-tag">
+                Construction
+              </span>
+
+              <h3>Structural Development</h3>
+
+              <p>
+                Structural construction and development
+                executed with attention to detail.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+
+    <section id="testimonials">
+
+      <div class="container">
+
+        <div class="section-heading center">
+
+          <small>Testimonials</small>
+
+          <h2>
+            What Our Clients Say
+          </h2>
+
+          <p>
+            Client satisfaction and long-term relationships
+            remain central to our work.
+          </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              "The team demonstrated professionalism,
+              communication and attention to detail throughout
+              our project."
+            </p>
+
+            <strong>— Residential Client</strong>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              "Prudent Construction maintained good coordination
+              and kept the project moving from planning through
+              execution."
+            </p>
+
+            <strong>— Commercial Client</strong>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              "Their commitment to quality workmanship and
+              practical construction solutions was impressive."
+            </p>
+
+            <strong>— Project Client</strong>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+      <div class="container">
+
+        <h2>
+          Ready to Build Your Next Project?
+        </h2>
+
+        <p>
+          Talk to PRUDENT Construction about your residential,
+          commercial or civil construction requirements.
+        </p>
+
+        <a href="#contact" class="btn btn-primary">
+          Request a Free Quote
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+
+          <h2>
+            Let's Discuss Your Project
+          </h2>
+
+          <p>
+            Contact our team for project enquiries,
+            consultations, estimates and construction services.
+          </p>
+
+
+          <div class="contact-item">
+
+            <div class="contact-icon">📍</div>
+
+            <div>
+              <strong>Headquarters</strong>
+              <span>
+                Ilokun off Afao Road<br>
+                Ado-Ekiti, Nigeria
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="contact-item">
+
+            <div class="contact-icon">📞</div>
+
+            <div>
+              <strong>Phone / WhatsApp</strong>
+
+              <span>
+                +234 810 818 0376
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="contact-item">
+
+            <div class="contact-icon">📱</div>
+
+            <div>
+              <strong>Social Media</strong>
+
+              <span>
+                Instagram: @prudentconstruction<br>
+                TikTok: @prudentconstruction
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <form
+          class="contact-form"
+          id="quoteForm"
+        >
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label>Full Name *</label>
+
+              <input
+                type="text"
+                id="name"
+                required
+                placeholder="Your name"
+              >
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label>Phone Number *</label>
+
+              <input
+                type="tel"
+                id="phone"
+                required
+                placeholder="+234..."
+              >
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Email Address</label>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="your@email.com"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Project Type *</label>
+
+            <select id="service" required>
+
+              <option value="">
+                Select a service
+              </option>
+
+              <option>
+                Commercial Construction
+              </option>
+
+              <option>
+                Residential Development
+              </option>
+
+              <option>
+                Civil & Infrastructure
+              </option>
+
+              <option>
+                Project Management
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>Project Details *</label>
+
+            <textarea
+              id="details"
+              required
+              placeholder="Tell us about your project..."
+            ></textarea>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="btn btn-primary submit-btn"
+          >
+            Send Inquiry
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-grid">
+
+      <div>
+
+        <div class="footer-logo">
+          PRUDENT Construction
+        </div>
+
+        <p>
+          Building Foundations, Engineering Trust.
+          Professional construction solutions for
+          residential, commercial and civil projects.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>Quick Links</h4>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+
+
+      <div>
+
+        <h4>Contact</h4>
+
+        <ul>
+          <li>Ado-Ekiti, Nigeria</li>
+          <li>+234 810 818 0376</li>
+          <li>Instagram: @prudentconstruction</li>
+          <li>TikTok: @prudentconstruction</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 PRUDENT Construction. All rights reserved.
+      </span>
+
+      <span>
+        Building Foundations, Engineering Trust.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- WHATSAPP -->
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/2348108180376?text=Hello%20PRUDENT%20Construction,%20I%20would%20like%20to%20make%20an%20enquiry."
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    ☎
+  </a>
+
+
+  <script>
+
+    /* MOBILE MENU */
+
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+
+    /* CLOSE MOBILE MENU */
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+      });
+
+    });
+
+
+    /* QUOTE FORM -> WHATSAPP */
+
+    const quoteForm = document.getElementById("quoteForm");
+
+    quoteForm.addEventListener("submit", function(event) {
+
+      event.preventDefault();
+
+      const name =
+        document.getElementById("name").value;
+
+      const phone =
+        document.getElementById("phone").value;
+
+      const email =
+        document.getElementById("email").value;
+
+      const service =
+        document.getElementById("service").value;
+
+      const details =
+        document.getElementById("details").value;
+
+
+      const message =
+        `Hello PRUDENT Construction.%0A%0A` +
+        `I would like to request a quote.%0A%0A` +
+        `Name: ${encodeURIComponent(name)}%0A` +
+        `Phone: ${encodeURIComponent(phone)}%0A` +
+        `Email: ${encodeURIComponent(email)}%0A` +
+        `Project Type: ${encodeURIComponent(service)}%0A` +
+        `Project Details: ${encodeURIComponent(details)}`;
+
+
+      window.open(
+        `https://wa.me/2348108180376?text=${message}`,
+        "_blank"
+      );
+
+    });
+
+  </script>
+
+</body>
+</html>
